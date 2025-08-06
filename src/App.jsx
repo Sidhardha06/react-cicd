@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <Router basename="/react-cicd">
+    <Router basename="/actions">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
