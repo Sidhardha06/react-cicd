@@ -45,4 +45,8 @@ jobs:
           git config --global user.name "Sidhardha06"
           git config --global user.email "sidhardhapatibandla06@gmail.com"
           npm install -g gh-pages
+<<<<<<< HEAD
           gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/Sidhardha06/react-cicd.git
+=======
+          gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/Sidhardha06/react-cicd.git
+>>>>>>> 67aa30ef0315d8cad179849c48943c215c9cde49
